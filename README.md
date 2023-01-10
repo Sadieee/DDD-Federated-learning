@@ -1,4 +1,4 @@
-# Video Daraset Loading and Federated Learning in PyTorch
+# Video Daraset Loading and Federated Learning Simulation
 
 ## Requirements
 anaconda >= 22.9.0  
