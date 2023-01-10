@@ -1,23 +1,42 @@
-# DDD-FL-project
-Video Dataset Loading and Federated-Learning
+# Video Daraset Loading and Federated Learning in PyTorch
 
-# Install Anaconda
-ref: https://docs.anaconda.com/anaconda/install/index.html
-# Create Environment
-> conda create --name envPython36 python=3.6 
-# 
-> activate envPython36
+## Requirements
+anaconda >= 22.9.0  
+python >= 3.8  
+torch >= 1.12.1  
+pytorchvideo >= 0.1.5  
+pytorch_lightning >= 1.7.7  
 
-# 安裝Pytorch
-ref: https://pytorch.org/
+## Create Environment
+> conda create --name envName  
+> activate envName
 
-ref: https://docs.microsoft.com/zh-tw/windows/ai/windows-ml/tutorials/pytorch-installation
-
-
-
-# Preprocessing
-+ 放入資料夾(請參考FL-Project/Simulate-FL/argparser.py)
-+ 設定參數(argparser.py)
-
-# Simulate
-> python main.py
+## Dataset Preprocessing
+```
+data  
+│
+├───val.csv # test dataset annotation file
+├───edge1
+│       ├───train.csv # annotation file of edge1
+│       ├───0001  # arbitrary video folder naming
+│       │     ├───00001.avi
+│       │     .
+│       │     └───00002.avi
+│       └───0002
+│             ├───00001.avi
+│             .
+│             └───00002.avi
+│
+└───edge2
+        ├───train.csv # annotation file of edge2
+        ├───0001  # arbitrary video folder naming
+        │     ├───00001.avi
+        │     .
+        │     └───00002.avi
+        └───0002
+              ├───00001.avi
+              .
+              └───00002.avi
+```
+## Simulation
+> python main.py --parameter
