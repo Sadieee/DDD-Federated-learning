@@ -1,4 +1,4 @@
-# Video Daraset Loading and Federated Learning Simulation
+# Video Dataset Training and Federated Learning Simulation
 
 ## Requirements
 anaconda >= 22.9.0  
