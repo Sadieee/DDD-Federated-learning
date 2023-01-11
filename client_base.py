@@ -92,8 +92,7 @@ class VideoClassificationLightningModule(pytorch_lightning.LightningModule):
             output_file = open(output_file, 'a')
         else :
             output_file = open(output_file, 'w')
-            print("Create result.txt.")             
-        output_file.write('epoch={}, Train loss {:.8f}, Train acc {:.3f}\n'.format( self.current_epoch, avg_loss, avg_acc))
+            print("Create result.txt.")             ]
         output_file.close()
 
     def validation_step(self, batch, batch_idx):
