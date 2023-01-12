@@ -39,4 +39,4 @@ data
               └───00002.avi
 ```
 ## Simulation
-> python main.py --parameter
+> python main.py --data_path data
