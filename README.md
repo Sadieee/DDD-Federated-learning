@@ -1,5 +1,6 @@
-# Video Dataset Training Using PyTorchVideo and Federated Learning Simulation
+# Video Dataset Federated Learning Simulation
 
+Distributed deep learning training using PyTorchVideo and PyTorchLightning.
 ## Requirements
 anaconda >= 22.9.0  
 python >= 3.8  
