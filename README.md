@@ -1,6 +1,7 @@
 # Video Dataset Federated Learning Simulation
 
 Distributed deep learning training using PyTorchVideo and PyTorchLightning.
+The training model is 3D-VGG16 and Dataset is video driver drowsiness detection dataset.
 ## Requirements
 anaconda >= 22.9.0  
 python >= 3.8  
